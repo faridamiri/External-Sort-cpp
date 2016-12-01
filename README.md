@@ -5,3 +5,6 @@ External sorting is required when the data being sorted do not fit into the main
 External sorting typically uses a hybrid sort-merge strategy. 
 In the sorting phase, chunks of data small enough to fit in main memory are read, sorted, and written out to a temporary file.
 In the merge phase, the sorted subfiles are combined into a single larger file.
+
+ I use k-way merged sort , at first I split file to a few small files(that it write to a vector and  I sort vector
+ by STL::sort (internal quick sort) than write vector to a temp file  ) , than I add minimum of every pop up from temp files to sorted_file .
