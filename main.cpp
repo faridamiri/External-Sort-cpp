@@ -1,5 +1,5 @@
 /* 
- * File:   newmain.cpp
+ * File:   main.cpp
  * Author: farid Amiri
  *
  * Created on 6. listopad 2014, 13:37
